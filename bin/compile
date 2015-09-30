@@ -2,6 +2,8 @@
 
 set -e
 
+env
+
 function indent() {
   c='s/^/       /'
   case $(uname) in
